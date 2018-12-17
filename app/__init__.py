@@ -9,7 +9,7 @@ parentdir = dir_path = os.path.dirname(os.path.realpath(dir_path))
 print('PARENTDIR: {}'.format(parentdir))
 
 app = Flask('asdd', template_folder=parentdir+"/templates",
-static_folder=parentdir+"static",
-static_url_path=parentdir+"static")
+static_folder=parentdir+"/static",
+static_url_path=parentdir+"/static")
 
 from app import routes
