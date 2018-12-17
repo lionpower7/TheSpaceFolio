@@ -8,8 +8,18 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/Space.css') }}">
 </head>
 <body>
-    <div>
-        <h1>{{Hello}}</h1>
-    </div>
+    <section id="B-Top">
+        <div class="SpaceNav">
+            <h1>The Spacefolio</h1>
+        </div>
+        <div class="SpaceSign">
+            <form action="{{ url_for('sign') }}" method="POST">
+                <input type="email" name="S_Email" required>
+                <input type="text" name="S_UserName" required>
+                <input type="password" name="S_Password" required>
+                <button>Enter</button>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
