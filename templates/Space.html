@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The SpaceFolio | A Place For Space Enthusiasts</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/Space.css') }}">
+    <link rel="stylesheet" href="/home/jeremy/Desktop/Web Development/TheSpaceFolio/static/css/Space.css">
 </head>
 <body>
     <section id="B-Top">
@@ -14,9 +15,10 @@
         </div>
         <div class="SpaceSign">
             <form action="{{ url_for('sign') }}" method="POST">
-                <input type="email" name="S_Email" required>
-                <input type="text" name="S_UserName" required>
-                <input type="password" name="S_Password" required>
+                <h1>Log In</h1>
+                <input type="email" name="S_Email" placeholder="Enter Your Email" required>
+                <input type="text" name="S_UserName" placeholder="Enter A Username" required>
+                <input type="password" name="S_Password" placeholder="Enter Your Password" required>
                 <button>Enter</button>
             </form>
         </div>

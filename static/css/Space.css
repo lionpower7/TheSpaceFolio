@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Farsan|Nunito|Open+Sans');
 
 body {
     margin: 0px;
@@ -10,12 +11,56 @@ body {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right top, #0b2b34, #0d2f3a, #103340, #133846, #163c4c, #194153, #1d455a, #214a61, #25516a, #295874, #2d5f7d, #326687);
-    height: 90px; 
+    height: 100px;
+    box-shadow: 1px 10px 10px -6px rgba(255,255,255,1);
 }
 
 .SpaceNav h1 {
     color: #FFFFFF;
-    text-shadow: 1px 3px 0 #969696, 1px 2px 3px #aba8a8;
-    font-family: 'Staatliches', cursive;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+    font-family: 'Farsan', sans-serif;
     font-size: 2.4em;
+}
+
+.SpaceSign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(31, 31, 32);
+    height: 400px;
+}
+
+.SpaceSign h1 {
+    color: white;
+    font-size: 2em;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+    font-family: 'Farsan', cursive;
+    z-index: 10;
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+
+.SpaceSign form {
+    border-radius: 5px;
+    height: 70%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #0b2b34, #0d2f3a, #103340, #133846, #163c4c, #194153, #1d455a, #214a61, #25516a, #295874, #2d5f7d, #326687);
+    box-shadow: 1px 6px 30px -2px rgba(247,247,247,1);
+}
+
+.SpaceSign form input {
+    width: 75%;
+    height: 10%;
+    border-radius: 4px;
+    margin: 5px 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+.SpaceSign form button {
+    width: 75%;
+    height: 10%;
 }

@@ -12,4 +12,6 @@ app = Flask('asdd', template_folder=parentdir+"/templates",
 static_folder=parentdir+"/static",
 static_url_path=parentdir+"/static")
 
+# app.debug = True
+
 from app import routes
