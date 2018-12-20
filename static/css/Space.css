@@ -18,7 +18,7 @@ body {
 .SpaceNav h1 {
     color: #FFFFFF;
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
-    font-family: 'Farsan', sans-serif;
+    font-family: 'Staatliches', sans-serif;
     font-size: 2.4em;
 }
 
@@ -26,29 +26,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(31, 31, 32);
+    background-image: linear-gradient(to right top, #1e2729, #20282a, #212a2b, #232b2d, #252d2e, #273031, #2a3334, #2c3637, #303b3d, #344042, #384648, #3c4b4e);
     height: 400px;
 }
 
 .SpaceSign h1 {
     color: white;
-    font-size: 2em;
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
     font-family: 'Farsan', cursive;
+    font-size: 2em;
     z-index: 10;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-bottom: 5px;
 }
 
 .SpaceSign form {
+    padding-top: 10px;
+    padding-bottom: 0px;
     border-radius: 5px;
-    height: 70%;
+    height: 75%;
     width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(to right top, #0b2b34, #0d2f3a, #103340, #133846, #163c4c, #194153, #1d455a, #214a61, #25516a, #295874, #2d5f7d, #326687);
+}
+
+.SpaceSign form:hover {
+    transition: 2s;
     box-shadow: 1px 6px 30px -2px rgba(247,247,247,1);
 }
 
@@ -57,10 +63,55 @@ body {
     height: 10%;
     border-radius: 4px;
     margin: 5px 0px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
 }
 
 .SpaceSign form button {
-    width: 75%;
-    height: 10%;
+    width: 77%;
+    height: 13%;
+    margin: 5px 0px;
+    font-family: 'Farsan', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    background-image: linear-gradient(to right top, #e9eff0, #edf2f3, #f2f5f6, #f6f8f9, #fafbfc, #fbfbfc, #fcfcfc, #fcfcfc, #fafafa, #f8f8f8, #f6f6f6, #f4f4f4);
+    color: #133846;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: none;
+}
+
+.SpaceSign form button:hover {
+    background: rgb(37, 37, 37);
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    transition: 1s;
+    border: none;
+}
+
+.SpaceSign form p {
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-family: 'Farsan', cursive;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+    font-size: 1.2em;
+}
+
+.SpaceSign form p a {
+    color: dodgerblue;
+    text-shadow: none;
+}
+
+.SpaceSign form p a:hover {
+    color: rgb(83, 218, 255);
+    text-decoration: overline;
+    transition: 1s;
+}
+
+#B-Mid .Features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #0b2b34, #0d2f3a, #103340, #133846, #163c4c, #194153, #1d455a, #214a61, #25516a, #295874, #2d5f7d, #326687);
+    height: 400px;
 }

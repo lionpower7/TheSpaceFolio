@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The SpaceFolio | A Place For Space Enthusiasts</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/Space.css') }}">
-    <link rel="stylesheet" href="/home/jeremy/Desktop/Web Development/TheSpaceFolio/static/css/Space.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
     <section id="B-Top">
@@ -14,13 +15,32 @@
             <h1>The Spacefolio</h1>
         </div>
         <div class="SpaceSign">
-            <form action="{{ url_for('sign') }}" method="POST">
+            <form action="{{ url_for('welcome') }}" method="POST">
                 <h1>Log In</h1>
                 <input type="email" name="S_Email" placeholder="Enter Your Email" required>
                 <input type="text" name="S_UserName" placeholder="Enter A Username" required>
                 <input type="password" name="S_Password" placeholder="Enter Your Password" required>
                 <button>Enter</button>
+                <p>Not A Member Yet? <a href="{{url_for('sign')}}">Sign Up</a></p>
             </form>
+        </div>
+    </section>
+    <section id="B-Mid">
+        <div class="Features">
+            <div class="One">
+                <img src="" alt="">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="Two">
+
+            </div>
+            <div class="Three">
+
+            </div>
+        </div>
+        <div class="">
+
         </div>
     </section>
 </body>

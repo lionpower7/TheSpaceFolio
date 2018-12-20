@@ -6,6 +6,10 @@ from flask import render_template
 def index():
     return render_template("Space.html")
 
+@app.route('/Welcome')
+def welcome():
+    return render_template("Welcome.html")
+
 @app.route('/SignUp')
 def sign():
     username = ""
