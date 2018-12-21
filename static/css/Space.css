@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right top, #3c80ac, #3c7faf, #3e7fb2, #407eb5, #437db8, #4485bb, #468dbe, #4b94c0, #5fa4c0, #7bb3c0, #99c0c3, #b8cdca);
+    background: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     height: 100px;
     box-shadow: 1px 10px 10px -6px rgba(255,255,255,1);
 }
@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to left top, #223431, #223735, #233a3a, #243c3e, #253f43, #274249, #29464f, #2c4955, #314e5d, #365465, #3d596e, #445e76);
+    background-image: linear-gradient(to top, #1a2021, #1d2324, #202626, #242929, #272c2c, #272c2c, #272c2c, #272c2c, #242929, #202626, #1d2324, #1a2021);
     background-size: contain;
     height: 400px;
 }
@@ -51,7 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(to right top, #3c80ac, #3c7faf, #3e7fb2, #407eb5, #437db8, #4485bb, #468dbe, #4b94c0, #5fa4c0, #7bb3c0, #99c0c3, #b8cdca);
+    background: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 }
 
 .SpaceSign form:hover {
@@ -99,7 +99,8 @@ body {
 }
 
 .SpaceSign form p a {
-    color: rgb(28, 82, 136);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
     text-shadow: none;
 }
 
@@ -111,8 +112,24 @@ body {
 
 #B-Mid .Features {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-image: linear-gradient(to top, #3c80ac, #3c7faf, #3e7fb2, #407eb5, #437db8, #4485bb, #468dbe, #4b94c0, #5fa4c0, #7bb3c0, #99c0c3, #b8cdca);
     height: 400px;
+    background-image: linear-gradient(to bottom, #ffffff, #fdfdfd, #fbfcfb, #fafafa, #f8f8f8, #f4f5f6, #f0f1f4, #eceef2, #e2e9ef, #d8e3eb, #ccdfe5, #c1dade);
+}
+
+.Features div {
+    border-radius: 5px;
+    font-family: "Thasadith",sans-serif;
+    width: 290px;
+    height: 330px;
+    text-align: center;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+    background: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
+.Features div p {
+    padding: 2px 5px;
 }
