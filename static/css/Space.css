@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Staatliches');
-@import url('https://fonts.googleapis.com/css?family=Farsan|Nunito|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+@import url('https://fonts.googleapis.com/css?family=Farsan|Nunito|Quicksand');
 
 body {
     margin: 0px;
@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right top, #0b2b34, #0d2f3a, #103340, #133846, #163c4c, #194153, #1d455a, #214a61, #25516a, #295874, #2d5f7d, #326687);
+    background-image: linear-gradient(to right top, #3c80ac, #3c7faf, #3e7fb2, #407eb5, #437db8, #4485bb, #468dbe, #4b94c0, #5fa4c0, #7bb3c0, #99c0c3, #b8cdca);
     height: 100px;
     box-shadow: 1px 10px 10px -6px rgba(255,255,255,1);
 }
@@ -18,7 +18,7 @@ body {
 .SpaceNav h1 {
     color: #FFFFFF;
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
-    font-family: 'Staatliches', sans-serif;
+    font-family: "Thasadith",sans-serif;
     font-size: 2.4em;
 }
 
@@ -26,14 +26,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right top, #1e2729, #20282a, #212a2b, #232b2d, #252d2e, #273031, #2a3334, #2c3637, #303b3d, #344042, #384648, #3c4b4e);
+    background-image: linear-gradient(to left top, #223431, #223735, #233a3a, #243c3e, #253f43, #274249, #29464f, #2c4955, #314e5d, #365465, #3d596e, #445e76);
+    background-size: contain;
     height: 400px;
 }
 
 .SpaceSign h1 {
     color: white;
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
-    font-family: 'Farsan', cursive;
+    font-family: "Thasadith",sans-serif;
     font-size: 2em;
     z-index: 10;
     margin-top: -20px;
@@ -50,7 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(to right top, #0b2b34, #0d2f3a, #103340, #133846, #163c4c, #194153, #1d455a, #214a61, #25516a, #295874, #2d5f7d, #326687);
+    background-image: linear-gradient(to right top, #3c80ac, #3c7faf, #3e7fb2, #407eb5, #437db8, #4485bb, #468dbe, #4b94c0, #5fa4c0, #7bb3c0, #99c0c3, #b8cdca);
 }
 
 .SpaceSign form:hover {
@@ -63,7 +64,7 @@ body {
     height: 10%;
     border-radius: 4px;
     margin: 5px 0px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: bolder;
 }
 
@@ -71,20 +72,20 @@ body {
     width: 77%;
     height: 13%;
     margin: 5px 0px;
-    font-family: 'Farsan', cursive;
+    font-family: "Thasadith",sans-serif;
     font-weight: bolder;
     font-size: 20px;
-    background-image: linear-gradient(to right top, #e9eff0, #edf2f3, #f2f5f6, #f6f8f9, #fafbfc, #fbfbfc, #fcfcfc, #fcfcfc, #fafafa, #f8f8f8, #f6f6f6, #f4f4f4);
-    color: #133846;
+    background: rgb(37, 37, 37);
+    color: #FFFFFF;
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
     border-radius: 4px;
     border: none;
 }
 
 .SpaceSign form button:hover {
-    background: rgb(37, 37, 37);
+    background: whitesmoke;
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
-    color: #FFFFFF;
+    color: rgb(46, 165, 239);
     transition: 1s;
     border: none;
 }
@@ -98,7 +99,7 @@ body {
 }
 
 .SpaceSign form p a {
-    color: dodgerblue;
+    color: rgb(28, 82, 136);
     text-shadow: none;
 }
 
@@ -112,6 +113,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right top, #0b2b34, #0d2f3a, #103340, #133846, #163c4c, #194153, #1d455a, #214a61, #25516a, #295874, #2d5f7d, #326687);
+    background-image: linear-gradient(to top, #3c80ac, #3c7faf, #3e7fb2, #407eb5, #437db8, #4485bb, #468dbe, #4b94c0, #5fa4c0, #7bb3c0, #99c0c3, #b8cdca);
     height: 400px;
 }
