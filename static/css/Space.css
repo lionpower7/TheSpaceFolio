@@ -110,12 +110,26 @@ body {
     transition: 1s;
 }
 
+.SpaceSign form input {
+    padding-left: 10px;
+}
+
 #B-Mid .Features {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 400px;
     background-image: linear-gradient(to bottom, #ffffff, #fdfdfd, #fbfcfb, #fafafa, #f8f8f8, #f4f5f6, #f0f1f4, #eceef2, #e2e9ef, #d8e3eb, #ccdfe5, #c1dade);
+}
+
+/* i .fas {
+    z-index: 11;
+    color: white;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+} */
+
+.fa {
+    font-weight: 100;
 }
 
 .Features div {
