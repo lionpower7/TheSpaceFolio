@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Passion+One|Farsan|Nunito|Quicksand');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+section #SSU {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"); */
+    background-image: linear-gradient(to top, #eeeeee, #eff0ef, #f1f1f1, #f2f3f2, #f4f4f4, #f5f5f5, #f7f7f7, #f8f8f8, #fafafa, #fbfcfb, #fdfdfd, #ffffff);
+    height: 100px;
+    box-shadow: 1px 10px 10px -6px rgba(255,255,255,1);
+    font-family: 'Staatliches', cursive;
+    color: #2f4353;
+    font-size: 26.6px;
+    text-transform: uppercase;
+}
+
+.SF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: linear-gradient(to top, #162b36, #172e39, #18313c, #19343f, #1a3742, #1c3945, #1e3b47, #203d4a, #243f4c, #27404f, #2b4251, #2f4353);
+}
+
+.SF form {
+    padding: 10px;
+    background-image: linear-gradient(to top, #eeeeee, #eff0ef, #f1f1f1, #f2f3f2, #f4f4f4, #f5f5f5, #f7f7f7, #f8f8f8, #fafafa, #fbfcfb, #fdfdfd, #ffffff);
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+
+.SF form:hover {
+    transition: 2s;
+    box-shadow: 1px 6px 30px -2px rgb(255, 255, 255);
+}
+
+.SF form h1 {
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    color: #2f4353;
+    font-size: 40px;
+}
+
+.SF form input {
+    width: 80%;
+    height: 8%;
+    padding-left: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    margin: 5px 0px;
+}
+
+.SF form button {
+    width: 82%;
+    height: 10%;
+    font-family: "Thasadith",sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    background: rgb(37, 37, 37);
+    color: #FFFFFF;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.SF form button:hover {
+    background: whitesmoke;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+    color: rgb(7, 129, 148);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 2s;
+    border: none;
+}

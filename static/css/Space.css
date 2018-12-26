@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Thasadith');
-@import url('https://fonts.googleapis.com/css?family=Farsan|Nunito|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Passion+One|Farsan|Nunito|Quicksand');
 
 body {
     margin: 0px;
@@ -10,31 +11,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    /* background: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"); */
+    background-image: linear-gradient(to top, #eeeeee, #eff0ef, #f1f1f1, #f2f3f2, #f4f4f4, #f5f5f5, #f7f7f7, #f8f8f8, #fafafa, #fbfcfb, #fdfdfd, #ffffff);
     height: 100px;
     box-shadow: 1px 10px 10px -6px rgba(255,255,255,1);
 }
 
 .SpaceNav h1 {
-    color: #FFFFFF;
-    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
-    font-family: "Thasadith",sans-serif;
-    font-size: 2.4em;
+    font-family: 'Staatliches', cursive;
+    color: #2f4353;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .SpaceSign {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top, #1a2021, #1d2324, #202626, #242929, #272c2c, #272c2c, #272c2c, #272c2c, #242929, #202626, #1d2324, #1a2021);
-    background-size: contain;
+    /* background-image: linear-gradient(to bottom, #f2f2f2, #f4f4f4, #f7f7f7, #f9f9f9, #fcfcfc, #fdfdfd, #fdfdfe, #fefeff, #fdfdff, #fbfdff, #f8fcff, #f6fcff); */
+    background-image: linear-gradient(to right top, #324c53, #2e4c54, #294b55, #244b57, #1f4a58, #1c4957, #194856, #164755, #154552, #15434e, #14414b, #143f48);
     height: 400px;
 }
 
 .SpaceSign h1 {
     color: white;
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
-    font-family: "Thasadith",sans-serif;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
     font-size: 2em;
     z-index: 10;
     margin-top: -20px;
@@ -51,12 +54,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-image: linear-gradient(to top, #162b36, #172e39, #18313c, #19343f, #1a3742, #1c3945, #1e3b47, #203d4a, #243f4c, #27404f, #2b4251, #2f4353);
 }
 
 .SpaceSign form:hover {
     transition: 2s;
-    box-shadow: 1px 6px 30px -2px rgba(247,247,247,1);
+    box-shadow: 1px 6px 30px -2px rgb(255, 255, 255);
 }
 
 .SpaceSign form input {
@@ -85,7 +88,9 @@ body {
 .SpaceSign form button:hover {
     background: whitesmoke;
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
-    color: rgb(46, 165, 239);
+    color: rgb(7, 129, 148);
+    font-weight: bold;
+    cursor: pointer;
     transition: 1s;
     border: none;
 }
@@ -99,13 +104,14 @@ body {
 }
 
 .SpaceSign form p a {
-    color: rgb(255, 255, 255);
+    color: rgb(7, 129, 148);
     font-weight: bolder;
     text-shadow: none;
+    font-family: "Thasadith",sans-serif;
 }
 
 .SpaceSign form p a:hover {
-    color: rgb(83, 218, 255);
+    color: rgb(255, 255, 255);
     text-decoration: overline;
     transition: 1s;
 }
@@ -119,7 +125,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     height: 400px;
-    background-image: linear-gradient(to bottom, #ffffff, #fdfdfd, #fbfcfb, #fafafa, #f8f8f8, #f4f5f6, #f0f1f4, #eceef2, #e2e9ef, #d8e3eb, #ccdfe5, #c1dade);
+    background-image: linear-gradient(to top, #eeeeee, #eff0ef, #f1f1f1, #f2f3f2, #f4f4f4, #f5f5f5, #f7f7f7, #f8f8f8, #fafafa, #fbfcfb, #fdfdfd, #ffffff);
 }
 
 /* i .fas {
@@ -141,9 +147,49 @@ body {
     font-weight: 600;
     color: #FFFFFF;
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
-    background: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    /* background: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"); */
+    background-image: linear-gradient(to top, #162b36, #172e39, #18313c, #19343f, #1a3742, #1c3945, #1e3b47, #203d4a, #243f4c, #27404f, #2b4251, #2f4353);
 }
 
 .Features div p {
     padding: 2px 5px;
 }
+
+.About {
+    margin-top: -30px;
+    height: 200px;
+    font-family: "Thasadith",sans-serif;
+    padding: 0px 20px;
+    background-image: linear-gradient(to top, #162b36, #172e39, #18313c, #19343f, #1a3742, #1c3945, #1e3b47, #203d4a, #243f4c, #27404f, #2b4251, #2f4353);
+}
+
+.About h1 {
+    font-size: 2.5em;
+    padding-top: 20px;
+    padding-left: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    text-transform: uppercase;
+}
+
+.About p {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-left: 3px solid dodgerblue;
+    padding-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.About a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.About a:hover {
+    color: white;
+    transition: 2s;
+}
+

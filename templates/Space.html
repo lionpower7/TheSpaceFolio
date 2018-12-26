@@ -11,15 +11,15 @@
 <body>
     <section id="B-Top">
         <div class="SpaceNav">
-            <h1>The Spacefolio</h1>
+            <h1>The SpaceFolio</h1>
         </div>
         <div class="SpaceSign">
             <form action="{{ url_for('welcome') }}" method="POST">
                 <h1>Log In</h1>
-                <input type="email" name="S_Email" placeholder="Enter Your Email" required>
-                <input type="text" name="S_UserName" placeholder="Enter A Username" required>
+                <!-- <input type="email" name="S_Email" placeholder="Enter Your Email" required> -->
+                <input type="text" name="S_UserName" placeholder="Enter Your Username" required>
                 <input type="password" name="S_Password" placeholder="Enter Your Password" required>
-                <button>Enter</button>
+                <button type="submit">Enter</button>
                 <p>Not A Member Yet? <a href="{{url_for('sign')}}">Sign Up</a></p>
             </form>
         </div>
@@ -34,16 +34,18 @@
             <div class="Two">
                 <img src="" alt="">
                 <h2><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</h2>
-                <p>Come check out the Gallery. The photos in the Gallery were taken from different photographers around the globe. Feel free to send us images that you think should be on the Gallery. </p>
+                <p>Come check out the Gallery. The photos in the Gallery were taken from different photographers around the globe. Feel free to send us images that you think should be on the Gallery. The images on the Gallery will contain space related content.</p>
             </div>
             <div class="Three">
                 <img src="" alt="">
                 <h2><i class="fa fa-comments-o" aria-hidden="true"></i> Discuss</h2>
-                <p>Join a community and post your questions on certain topics. Challenge random users in our Space quizes.</p>
+                <p>Join a community and post your questions on certain topics. Challenge random users in our Space Quiz. The whole reason for this section is to have a community that talks about the newest things concerning space.</p>
             </div>
         </div>
         <div class="About">
-
+            <h1>The Team</h1>
+            <p>The SpaceFolio is built by a pair of Web Developers. Building this application was a journey. In The SpaceFolio we believe in learning. The ultimate goal here is to convert this application into a learning platform for space. If you wish to collaborate with this Project visit <a href="https://github.com/lionpower7/TheSpaceFolio">Our Git Repository</a>. If you would also like to contribute financially to support this project <a href="">Click Here</a>.
+            </p>
         </div>
     </section>
 </body>
