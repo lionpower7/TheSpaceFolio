@@ -14,3 +14,7 @@ def welcome():
 def sign():
     username = ""
     return render_template("Sign.html", username=username)
+
+@app.route('/new_index')
+def new_index():
+    return render_template("template_index.html")
