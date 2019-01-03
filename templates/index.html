@@ -1,14 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The SpaceFolio | A Place For Space Enthusiasts</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/Space.css') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+
+{% extends "base.html" %}
+{% block content %}
+  
+
+          <div class="inner cover">
+            <h1 class="cover-heading">The SpaceFolio</h1>
+            <p class="lead">In the universe there are many unseen and unknown events that take place. In the Explore Page you will be able to browse space stories, events & facts. This section is here to educate you the reader on well known space related events.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Explore</a>
+            </p>
+          </div>
+
+         
+
+        
+  {% endblock %}
+
     
-</body>
+    
+
+  </body>
+
 </html>
