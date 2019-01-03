@@ -1,1 +1,2 @@
 FLASK_APP=SpaceFolio.py
+FLASK_ENV=development
