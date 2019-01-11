@@ -52,9 +52,9 @@
 
                         {% set active_page = active_page|default('index') -%}
                         <nav>
-                            <ul class="nav masthead-nav" style="font-family: 'Farsan', cursive;">
+                            <ul class="nav masthead-nav animated fadeInRight" style="font-family: 'Quicksand', cursive; animation-duration: 2s;">
                                 {% for href, id, caption in navigation_bar %}
-                                <li {% if id==active_page %} class="active" {% endif %}><a href="{{ href|e }}" style="font-size: 20px;">{{
+                                <li {% if id==active_page %} class="active" {% endif %}><a href="{{ href|e }}" style="font-size: 17px;">{{
                                         caption|e }}</a></li>
                                 {% endfor %}
                             </ul>

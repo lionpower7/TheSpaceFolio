@@ -192,3 +192,13 @@ body {
         width: 700px;
     }
 }
+
+.masthead-nav a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #ffffff, 1px 1px 2px #f6f6f6;
+    transition: 1.2s;
+}
+
+.masthead-nav a {
+    text-decoration: none;
+}
