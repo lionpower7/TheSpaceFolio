@@ -27,6 +27,10 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/cover.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Quicksand|Farsan" rel="stylesheet"> 
+
+    <!-- Animate.css library for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 </head>
 
@@ -39,7 +43,7 @@
 
                 <div class="masthead clearfix">
                     <div class="inner">
-                        <h3 class="masthead-brand">SpaceFolio</h3>
+                        <h3 class="masthead-brand animated fadeInLeft" style="font-family: 'Quicksand','Assistant',sans-serif;font-weight: bold; animation-duration: 2s;">SpaceFolio</h3>
                         {% set navigation_bar = [
                         ('/', 'index', 'Home'),
                         ('#', 'explore', 'Explore'),
@@ -48,9 +52,9 @@
 
                         {% set active_page = active_page|default('index') -%}
                         <nav>
-                            <ul class="nav masthead-nav">
+                            <ul class="nav masthead-nav" style="font-family: 'Farsan', cursive;">
                                 {% for href, id, caption in navigation_bar %}
-                                <li {% if id==active_page %} class="active" {% endif %}><a href="{{ href|e }}">{{
+                                <li {% if id==active_page %} class="active" {% endif %}><a href="{{ href|e }}" style="font-size: 20px;">{{
                                         caption|e }}</a></li>
                                 {% endfor %}
                             </ul>
