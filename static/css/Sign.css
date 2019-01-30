@@ -38,13 +38,13 @@ section #SSU {
 .SF form {
     padding: 10px;
     background-image: linear-gradient(to top, #eeeeee, #eff0ef, #f1f1f1, #f2f3f2, #f4f4f4, #f5f5f5, #f7f7f7, #f8f8f8, #fafafa, #fbfcfb, #fdfdfd, #ffffff);
-    height: 550px;
+    height: 450px;
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    flex-basis: 70%;
+    flex-basis: 60%;
 }
 
 .SF form:hover {
